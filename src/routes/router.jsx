@@ -4,6 +4,7 @@ import MainLayout from "../layout/MainLayout";
 import Home from "../pages/Home/Home";
 import CategoryDetails from "../components/CategoryDetails";
 import NotFoundPage from "../pages/notFound/NotFoundPage";
+import Donation from "../pages/danation/Donation";
 
 export const router = createBrowserRouter([
     {
@@ -14,11 +15,16 @@ export const router = createBrowserRouter([
             {
                 path: "/",
                 element: <Home />,
-                loader: () => axios.get("/data.json")
+                loader: () => axios.get("../data.json")
             },
             {
                 path: "/category/:id",
                 element: <CategoryDetails />
+            },
+            {
+                path: "/donation",
+                element: <Donation />,
+                loader: () => axios.get("../data.json")
             }
         ]
     }

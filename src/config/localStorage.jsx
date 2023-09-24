@@ -1,4 +1,4 @@
-export const getId = () => {
+export const getIds = () => {
     const saveId = localStorage.getItem("donationId");
     if (saveId) {
         return JSON.parse(saveId);
@@ -7,8 +7,9 @@ export const getId = () => {
 };
 
 export const saveIds = (id) => {
-    const saveIds = getId();
-    if (saveIds) {
+    const saveIds = getIds();
+    const exsis = saveIds.find((saveId) => saveId === id)
+    if (exsis) {
         return "Alredy Added"
     }
     else {
