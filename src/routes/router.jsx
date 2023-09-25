@@ -5,6 +5,7 @@ import Home from "../pages/Home/Home";
 import CategoryDetails from "../components/CategoryDetails";
 import NotFoundPage from "../pages/notFound/NotFoundPage";
 import Donation from "../pages/danation/Donation";
+import Statistics from "../pages/Statistics/Statistics";
 
 export const router = createBrowserRouter([
     {
@@ -24,6 +25,11 @@ export const router = createBrowserRouter([
             {
                 path: "/donation",
                 element: <Donation />,
+                loader: () => axios.get("../data.json")
+            },
+            {
+                path: "/statistics",
+                element: <Statistics />,
                 loader: () => axios.get("../data.json")
             }
         ]
