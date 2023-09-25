@@ -9,7 +9,7 @@ const Hero = ({ onSearch }) => {
     };
 
     const handelSearch = (e) => {
-        setSearchText(e.target.value);
+        setSearchText(e.target.value.trim());
     };
 
     return (
