@@ -17,7 +17,7 @@ const Donation = () => {
     return (
         <div className=''>
             {
-                donationData.length <= 0 ? <div ><DataNotFound /></div> : <div className='grid mb-10 mt-5 grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-7 mx-auto'>
+                donationData.length <= 0 ? <div ><DataNotFound /></div> : <div className='grid mb-10 text-center items-center md:text-start mt-5 grid-cols-1 lg:grid-cols-2 gap-4 md:gap-7 mx-auto'>
                     {donationData.slice(0, dataLength)?.map((donation) => {
                         const CategoryBackgroundColor = donation.color[1];
                         const backgroundColor = donation.color[0];
@@ -25,11 +25,17 @@ const Donation = () => {
                         return (
                             <div key={donation.id} className='rounded-md' style={{ backgroundColor: backgroundColor }}>
                                 <div className='flex gap-4 flex-col md:flex-row  items-center md:items-start p-5 md:p-0'>
-                                    <img className='w-60 h-40' src={donation.image} alt={donation.title} />
+                                    <img className='w-64 h-[30vh]' src={donation.image} alt={donation.title} />
                                     <div className='mt-4'>
                                         <h3 className="badge p-3 rounded-md" style={{ backgroundColor: CategoryBackgroundColor, color: textColor }}>{donation.category}</h3>
-                                        <h1 className='text-2xl font-semibold mt-2'>{donation.title}</h1>
-                                        <button className='btn mt-4 capitalize text-white' style={{ backgroundColor: textColor }}>View Details</button>
+                                        <h1 className='text-sm md:text-xl lg:2xl font-semibold mt-2 '>{donation.title}</h1>
+
+
+                                        <p className='text-sm md:text-xl lg:2xl font-semibold mt-1 ' style={{ color: textColor }}>${donation.price}</p>
+
+
+
+                                        <button className='btn mb-2 mt-4 capitalize text-white' style={{ backgroundColor: textColor }}>View Details</button>
                                     </div>
                                 </div>
                             </div>

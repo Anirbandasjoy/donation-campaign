@@ -51,24 +51,46 @@ const Statistics = () => {
     };
 
     return (
-        <ResponsiveContainer width="100%" height={400}>
-            <PieChart>
-                <Pie
-                    data={data}
-                    cx="50%"
-                    cy="50%"
-                    labelLine={false}
-                    label={renderCustomizedLabel}
-                    outerRadius={80}
-                    fill="#8884d8"
-                    dataKey="value"
-                >
-                    {data.map((entry, index) => (
-                        <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                    ))}
-                </Pie>
-            </PieChart>
-        </ResponsiveContainer>
+        <div className='mb-5'>
+            <ResponsiveContainer width="100%" height={280}>
+                <PieChart>
+                    <Pie
+                        data={data}
+                        cx="50%"
+                        cy="50%"
+                        labelLine={false}
+                        label={renderCustomizedLabel}
+                        outerRadius={80}
+                        fill="#8884d8"
+                        dataKey="value"
+                    >
+                        {data.map((entry, index) => (
+                            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                        ))}
+                    </Pie>
+                </PieChart>
+            </ResponsiveContainer>
+            <div className='flex flex-col md:flex-row justify-center items-center gap-5 my-auto'>
+
+                <div className='flex justify-center items-center gap-3'>
+                    <div className='text-[1rem]'>
+                        <h1>Your Donation</h1>
+                    </div>
+
+                    <div className='w-[6rem] mt-1 h-[.6rem] bg-[#00C49F]'></div>
+                </div>
+
+                <div className='flex justify-center items-center gap-3'>
+                    <div className='text-[1rem]'>
+                        <h1>Total Donation</h1>
+                    </div>
+
+                    <div className='w-[6rem] mt-1 h-[.6rem] bg-[#FF444A]'></div>
+                </div>
+
+            </div>
+
+        </div>
     );
 };
 
