@@ -1,7 +1,17 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import banner from "../assets/Clothing.png"
 
-const Hero = () => {
+const Hero = ({ onSearch }) => {
+    const [searchText, setSearchText] = useState("");
+
+    const handleSearchClick = () => {
+        onSearch(searchText);
+    };
+
+    const handelSearch = (e) => {
+        setSearchText(e.target.value);
+    };
+
     return (
         <div>
             <div className="hero min-h-[60vh]" style={{ backgroundImage: `url(${banner})` }}>
@@ -10,8 +20,8 @@ const Hero = () => {
                     <div className="max-w-xl">
                         <h1 className="mb-5 text-3xl text-gray-800 font-bold">I Grow By Helping People In Need</h1>
                         <div className='flex items-center justify-center'>
-                            <input type="text" placeholder="Search here" className="py-3 outline-none px-3 text-black w-full rounded-none max-w-xs rounded-l-md" />
-                            <button className='btn rounded-none py-2 hover:bg-[#FF444A] capitalize text-white bg-[#FF444A] rounded-r-md'>Search</button>
+                            <input value={searchText} type="text" placeholder="Search here" className="py-3 outline-none px-3 text-black w-full rounded-none max-w-xs rounded-l-md" onChange={handelSearch} required />
+                            <button onClick={handleSearchClick} className='btn rounded-none py-2 hover:bg-[#FF444A] capitalize text-white bg-[#FF444A] rounded-r-md'>Search</button>
                         </div>
 
                     </div>

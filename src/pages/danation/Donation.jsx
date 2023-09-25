@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { getIds } from '../../config/localStorage';
+import DataNotFound from '../../components/DataNotFound';
 
 const Donation = () => {
     const [donationData, setDonationData] = useState([]);
@@ -16,7 +17,7 @@ const Donation = () => {
     return (
         <div className=''>
             {
-                donationData.length < 0 ? <h1 className='text-black'>not data found</h1> : <div className='grid mb-10 mt-5 grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-7 mx-auto'>
+                donationData.length <= 0 ? <div ><DataNotFound /></div> : <div className='grid mb-10 mt-5 grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-7 mx-auto'>
                     {donationData.slice(0, dataLength)?.map((donation) => {
                         const CategoryBackgroundColor = donation.color[1];
                         const backgroundColor = donation.color[0];
