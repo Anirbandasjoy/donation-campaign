@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "title": "Clean water for children",
+    "title": "Clean Water for Children",
     "category": "Health",
-    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "description": "Access to clean and safe drinking water is crucial for the well-being of children and their overall health. This initiative aims to ensure that all children, regardless of their circumstances, have access to clean water sources. Providing clean water can prevent waterborne diseases and improve the quality of life for children in need. Your support will contribute to making a significant difference in the lives of these young individuals.",
     "price": 290,
     "image": "https://i.ibb.co/0BjX9GF/Health.png",
     "color": ["#0052FF26", "rgba(0, 82, 255, 0.20)", "#0052FF"]
@@ -12,8 +12,8 @@
     "id": 2,
     "title": "Good education",
     "category": "Education",
-    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-    "price": 290,
+    "description": "Achieving access to a quality education is a shared responsibility that involves governments, families, and educators. Governments can make a difference by investing in public schools, offering financial aid to students, and ensuring that qualified teachers and essential resources are available in all schools. Families, too, play a crucial role by creating a supportive learning environment at home and actively engaging in their children's education. Meanwhile, teachers can contribute by fostering a positive and empowering learning environment for their students, encouraging them to reach their full potential.",
+    "price": 200,
     "image": "https://i.ibb.co/xDknhT2/Education.png",
     "color": ["#FF444A26", "rgba(255, 68, 74, 0.20)", "#FF444A"]
   },
@@ -21,8 +21,8 @@
     "id": 3,
     "title": "Used Clothing Drive",
     "category": "Clothing",
-    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-    "price": 290,
+    "description": "Join us in making a meaningful impact by contributing to our Used Clothing Drive. Together, we can ensure that everyone, regardless of their circumstances, has access to clean and quality clothing. Your support can make a significant difference in the lives of those in need. Let's come together to extend a helping hand and provide warmth and comfort to those who require it the most.",
+    "price": 220,
     "image": "https://i.ibb.co/LrXRBXx/Clothing.png",
     "color": ["#79C23F26", "rgba(121, 194, 63, 0.20)", "#79C23F"]
   },
@@ -30,26 +30,26 @@
     "id": 4,
     "title": "Better Food for Everyone",
     "category": "Food",
-    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-    "price": 290,
+    "description": "Embark on a journey towards a healthier and more equitable future with 'Better Food for Everyone.' Our mission is to ensure that nutritious and delicious food is accessible to all, regardless of their background or circumstances. We believe that governments can play a vital role by investing in sustainable agriculture, promoting food security, and supporting local communities. Families can contribute by making informed dietary choices and sharing their culinary knowledge, fostering a culture of well-being at home. Together, let's empower individuals to make healthier food choices, creating a brighter and more nourished world for everyone.",
+    "price": 180,
     "image": "https://i.ibb.co/5YBcYq7/Food.png",
     "color": ["#F8714726", "rgba(248, 113, 71, 0.20)", "#F87147"]
   },
   {
     "id": 5,
-    "title": "Better Food for Everyone",
+    "title": "Nutritious Meals for All",
     "category": "Food",
-    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-    "price": 290,
+    "description": "Our 'Nutritious Meals for All' initiative is dedicated to ensuring that everyone has access to wholesome and nourishing food. We believe that no one should go to bed hungry. Join us in providing balanced meals to individuals and families in need, making a positive impact on their health and well-being.",
+    "price": 170,
     "image": "https://i.ibb.co/5YBcYq7/Food.png",
     "color": ["#F8714726", "rgba(248, 113, 71, 0.20)", "#F87147"]
   },
   {
     "id": 6,
-    "title": "Used Clothing Drive",
+    "title": "Warmth for All: Clothing Drive",
     "category": "Clothing",
-    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-    "price": 290,
+    "description": "Our 'Warmth for All' clothing drive aims to provide essential clothing items to those in need, ensuring that individuals and families have access to warm and suitable clothing, especially during cold seasons. By donating and participating, you can make a significant difference in improving the lives of those less fortunate.",
+    "price": 250,
     "image": "https://i.ibb.co/LrXRBXx/Clothing.png",
     "color": ["#79C23F26", "rgba(121, 194, 63, 0.20)", "#79C23F"]
   },
@@ -58,25 +58,25 @@
     "title": "Empowering Minds through Education",
     "category": "Education",
     "description": "Education is the key to unlocking a brighter future for all. Governments can invest in public schools, provide financial assistance to students, and ensure that every school has dedicated teachers and abundant resources. Families can play their part by fostering a conducive learning environment at home, guiding their children through their academic journey. Teachers can create a nurturing and supportive atmosphere in the classroom, inspiring students to realize their full potential.",
-    "price": 290,
+    "price": 350,
     "image": "https://i.ibb.co/xDknhT2/Education.png",
     "color": ["#FF444A26", "rgba(255, 68, 74, 0.20)", "#FF444A"]
   },
   {
     "id": 8,
-    "title": "Clean water for children",
+    "title": "Medical Outreach and Care",
     "category": "Health",
-    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-    "price": 290,
+    "description": "Access to quality healthcare is a fundamental aspect of maintaining good health. This initiative aims to bring medical services and care to underserved communities, ensuring that every child has the opportunity to receive proper healthcare and treatment when needed.",
+    "price": 400,
     "image": "https://i.ibb.co/0BjX9GF/Health.png",
     "color": ["#0052FF26", "rgba(0, 82, 255, 0.20)", "#0052FF"]
   },
   {
     "id": 9,
-    "title": "Clean water for children",
+    "title": "Nutritional Support for Children",
     "category": "Health",
-    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-    "price": 290,
+    "description": "Proper nutrition is essential for the growth and development of children. This program focuses on providing nutritious meals and supplements to children in need, ensuring they receive the essential nutrients required for a healthy and thriving life.",
+    "price": 295,
     "image": "https://i.ibb.co/0BjX9GF/Health.png",
     "color": ["#0052FF26", "rgba(0, 82, 255, 0.20)", "#0052FF"]
   },
@@ -84,25 +84,26 @@
     "id": 10,
     "title": "Building Strong Foundations for Tomorrow",
     "category": "Education",
-    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-    "price": 290,
+    "description": "Building Strong Foundations for Tomorrow is a thought-provoking item that underscores the importance of equitable access to quality education for all individuals. This item delves into various ways in which this can be achieved, emphasizing the collective responsibility of governments, families, and educators in shaping a brighter future.Government's Role: Governments play a pivotal role in fostering an inclusive education system. They can make a significant impact by allocating resources to public schools, ensuring financial assistance programs are available to students in need, and guaranteeing that all educational institutions are staffed with qualified and dedicated teachers. By prioritizing these aspects, governments can lay the groundwork for a robust educational infrastructure that benefits society as a whole.Family Support: Families are fundamental to a child's educational journey. Creating a nurturing and conducive learning environment at home is essential. Parents and guardians can actively engage with their children's education by assisting them with their schoolwork, encouraging a love for learning, and offering unwavering support. The involvement of families in education is a vital component of building a strong educational foundation.Teacher's Impact: Teachers hold the key to unlocking the potential within each student. They have the power to create a positive and supportive learning environment where students feel motivated and encouraged to reach their full potential. By setting high standards, providing guidance, and fostering",
+    "price": 300,
     "image": "https://i.ibb.co/xDknhT2/Education.png",
     "color": ["#FF444A26", "rgba(255, 68, 74, 0.20)", "#FF444A"]
   },
+
   {
     "id": 11,
-    "title": "Used Clothing Drive",
+    "title": "Supporting Dignity: Clothing Assistance",
     "category": "Clothing",
-    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "description": "Our 'Supporting Dignity' program is dedicated to providing clothing assistance to individuals and families facing economic hardships. Your contribution can help us offer clean and gently-used clothing to those in need, preserving their dignity and well-being.",
     "price": 290,
     "image": "https://i.ibb.co/LrXRBXx/Clothing.png",
     "color": ["#79C23F26", "rgba(121, 194, 63, 0.20)", "#79C23F"]
   },
   {
-    "id": 12,
-    "title": "Better Food for Everyone",
+    "id": 175,
+    "title": "Share the Bounty: Food Drive",
     "category": "Food",
-    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "description": "Our 'Share the Bounty' food drive is a collective effort to combat hunger and food insecurity. By contributing to this cause, you can help us distribute surplus food to those who need it most. Together, we can make a significant difference in alleviating hunger in our community.",
     "price": 290,
     "image": "https://i.ibb.co/5YBcYq7/Food.png",
     "color": ["#F8714726", "rgba(248, 113, 71, 0.20)", "#F87147"]
