@@ -44,9 +44,9 @@ const Home = () => {
                             const textColor = category.color[2];
                             return (
                                 <Link key={category.id} to={`/category/${category.id}`} state={category}>
-                                    <div className="card card-compact " style={{ backgroundColor: backgroundColor }}>
+                                    <div className=" h-[300px] rounded-sm card-compact max-h-[23rem]" style={{ backgroundColor: backgroundColor }}>
                                         <figure><img className='w-full' src={category.image} alt="Shoes" /></figure>
-                                        <div className="card-body">
+                                        <div className="card-body ">
                                             <span className=" badge  p-3 rounded-md" style={{ backgroundColor: CategoryBackgroundColor, color: textColor }}>{category.category}</span>
                                             <h2 className=" text-sm  lg:text-[1rem]    font-semibold" style={{ color: textColor }}>{category.title}</h2>
                                         </div>

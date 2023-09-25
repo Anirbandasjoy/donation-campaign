@@ -52,7 +52,7 @@ const Statistics = () => {
 
     return (
         <div className='mb-5'>
-            <ResponsiveContainer width="100%" height={280}>
+            <ResponsiveContainer width="100%" height={400}>
                 <PieChart>
                     <Pie
                         data={data}
@@ -60,7 +60,7 @@ const Statistics = () => {
                         cy="50%"
                         labelLine={false}
                         label={renderCustomizedLabel}
-                        outerRadius={80}
+                        outerRadius={150}
                         fill="#8884d8"
                         dataKey="value"
                     >

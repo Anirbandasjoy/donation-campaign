@@ -55,9 +55,9 @@
   },
   {
     "id": 7,
-    "title": "Good education",
+    "title": "Empowering Minds through Education",
     "category": "Education",
-    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "description": "Education is the key to unlocking a brighter future for all. Governments can invest in public schools, provide financial assistance to students, and ensure that every school has dedicated teachers and abundant resources. Families can play their part by fostering a conducive learning environment at home, guiding their children through their academic journey. Teachers can create a nurturing and supportive atmosphere in the classroom, inspiring students to realize their full potential.",
     "price": 290,
     "image": "https://i.ibb.co/xDknhT2/Education.png",
     "color": ["#FF444A26", "rgba(255, 68, 74, 0.20)", "#FF444A"]
@@ -82,7 +82,7 @@
   },
   {
     "id": 10,
-    "title": "Good education",
+    "title": "Building Strong Foundations for Tomorrow",
     "category": "Education",
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
     "price": 290,

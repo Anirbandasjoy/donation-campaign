@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 import { getIds } from '../../config/localStorage';
 import DataNotFound from '../../components/DataNotFound';
 
@@ -24,18 +24,21 @@ const Donation = () => {
                         const textColor = donation.color[2];
                         return (
                             <div key={donation.id} className='rounded-md' style={{ backgroundColor: backgroundColor }}>
-                                <div className='flex gap-4 flex-col md:flex-row  items-center md:items-start p-5 md:p-0'>
-                                    <img className='w-64 h-[30vh]' src={donation.image} alt={donation.title} />
-                                    <div className='mt-4'>
-                                        <h3 className="badge p-3 rounded-md" style={{ backgroundColor: CategoryBackgroundColor, color: textColor }}>{donation.category}</h3>
+                                <div className='flex gap-4  flex-col md:flex-row  items-center md:items-start  p-5 md:p-0'>
+                                    <img className='w-64 my-auto h-[31vh] ' src={donation.image} alt={donation.title} />
+                                    <div className='my-3'>
+                                        <h3 className="badge  rounded-md" style={{ backgroundColor: CategoryBackgroundColor, color: textColor }}>{donation.category}</h3>
                                         <h1 className='text-sm md:text-xl lg:2xl font-semibold mt-2 '>{donation.title}</h1>
 
 
                                         <p className='text-sm md:text-xl lg:2xl font-semibold mt-1 ' style={{ color: textColor }}>${donation.price}</p>
+                                        <Link
 
-
-
-                                        <button className='btn mb-2 mt-4 capitalize text-white' style={{ backgroundColor: textColor }}>View Details</button>
+                                            className='btn mt-4 capitalize text-white'
+                                            style={{ backgroundColor: textColor }}
+                                        >
+                                            View Details
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

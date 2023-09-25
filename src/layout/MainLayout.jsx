@@ -7,7 +7,7 @@ import Loading from '../components/Loading/Loading'
 const MainLayout = () => {
     const navigation = useNavigation()
     return (
-        <div className='container mx-auto'>
+        <div className='container mx-auto px-4 lg:px-0'>
             <div>
                 <Header />
             </div>
